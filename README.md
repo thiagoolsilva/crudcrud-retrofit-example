@@ -13,7 +13,7 @@
 
 ## Description
 
-Crud Crud Example
+This is a very simple example of how to consume an API using the [Crud Crud API](https://crudcrud.com/) retrofit
 
 ### Android Studio
 
