@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstFragment">
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/btnCreateComics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST /comics"
+        android:gravity="center" />
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/btnGetAllComics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET /comics" />
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/btnDeleteComic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE /comics" />
+
+</LinearLayout>
