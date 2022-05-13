@@ -13,7 +13,13 @@
 
 ## Description
 
-Crud Crud Example
+This is a very simple example of how to consume an API using the [Crud Crud API](https://crudcrud.com/) retrofit
+
+### Configuring
+
+1. Go to website [Crud Crud API](https://crudcrud.com/) and get a valid API Key;
+2. Replace the value CRUD_CRUD_API_KEY located in the file app/build.gradle with your Crud Crud API Key;
+3. Run the Application;
 
 ### Android Studio
 
